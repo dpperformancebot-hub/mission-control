@@ -1197,11 +1197,14 @@ tbody tr:hover td {
   text-transform: uppercase;
 }
 
-.tag-ops     { background: rgba(10,132,255,0.15);   color: #5ac8fa; }
-.tag-hr      { background: rgba(191,90,242,0.15);   color: #bf5af2; }
-.tag-content { background: rgba(255,159,10,0.15);   color: var(--accent-amber); }
-.tag-growth  { background: rgba(48,209,88,0.15);    color: var(--accent-teal); }
-.tag-tech    { background: rgba(255,255,255,0.08);  color: var(--text-3); }
+.tag-ops      { background: rgba(10,132,255,0.15);   color: #5ac8fa; }
+.tag-hr       { background: rgba(191,90,242,0.15);   color: #bf5af2; }
+.tag-content  { background: rgba(255,159,10,0.15);   color: var(--accent-amber); }
+.tag-growth   { background: rgba(48,209,88,0.15);    color: var(--accent-teal); }
+.tag-tech     { background: rgba(255,255,255,0.08);  color: var(--text-3); }
+.tag-revenue  { background: rgba(255,69,58,0.15);    color: #ff453a; }
+.tag-data     { background: rgba(255,159,10,0.15);   color: var(--accent-amber); }
+.tag-coaching { background: rgba(48,209,88,0.15);    color: var(--accent-teal); }
 
 /* ============================================================
    CRON JOBS
@@ -1379,17 +1382,17 @@ tbody tr:hover td {
       <div class="stat-grid stagger">
         <div class="stat-card">
           <div class="stat-label">Monthly Revenue</div>
-          <div class="stat-value stat-accent">$115k</div>
-          <div class="stat-sub">AUD · +8% vs last month</div>
+          <div class="stat-value stat-accent">$152.9k</div>
+          <div class="stat-sub">AUD · +4.4% vs Feb — March 2026</div>
           <div class="progress-wrap">
-            <div class="progress-label"><span>→ $500k goal</span><span>23%</span></div>
-            <div class="progress-bar"><div class="progress-fill" style="width:23%"></div></div>
+            <div class="progress-label"><span>→ $500k goal</span><span>30.6%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:30.6%"></div></div>
           </div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Active Clients</div>
-          <div class="stat-value">430</div>
-          <div class="stat-sub">9 coaches · avg 47.8/coach</div>
+          <div class="stat-value">453</div>
+          <div class="stat-sub">9 coaches · ARPC $337/mo</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Active Agents</div>
@@ -1672,7 +1675,7 @@ tbody tr:hover td {
     <!-- ====== CLIENTS ====== -->
     <section class="page" id="page-clients">
       <div class="page-title">Clients</div>
-      <div class="page-subtitle">430 active clients across 9 coaches</div>
+      <div class="page-subtitle">453 active clients across 9 coaches — March 2026</div>
 
       <div class="card mb-16">
         <div class="section-title" style="margin-bottom:14px;">Coach Capacity — By Coach</div>
@@ -1704,13 +1707,13 @@ tbody tr:hover td {
 
       <div class="card mb-16" style="padding: 0; overflow: hidden;">
         <div class="mrr-hero">
-          <div class="mrr-value">$115,000</div>
-          <div class="mrr-label">Monthly Recurring Revenue (AUD)</div>
+          <div class="mrr-value">$152,874</div>
+          <div class="mrr-label">Monthly Recurring Revenue (AUD) — March 2026</div>
           <div style="max-width: 500px; margin: 20px auto 0;">
-            <div class="progress-label"><span>$0</span><span>$115k current</span><span>$500k goal (2026)</span></div>
-            <div class="progress-bar" style="height: 7px; margin-bottom: 10px;"><div class="progress-fill" style="width:23%"></div></div>
+            <div class="progress-label"><span>$0</span><span>$152.9k current</span><span>$500k goal (2026)</span></div>
+            <div class="progress-bar" style="height: 7px; margin-bottom: 10px;"><div class="progress-fill" style="width:30.6%"></div></div>
             <div class="progress-label" style="margin-top: 8px;"><span>$0</span><span></span><span>$1M+ goal (2027)</span></div>
-            <div class="progress-bar" style="height: 4px;"><div class="progress-fill" style="width:11.5%; opacity: 0.5;"></div></div>
+            <div class="progress-bar" style="height: 4px;"><div class="progress-fill" style="width:15.3%; opacity: 0.5;"></div></div>
           </div>
         </div>
       </div>
@@ -1718,23 +1721,23 @@ tbody tr:hover td {
       <div class="revenue-stat-grid stagger">
         <div class="stat-card">
           <div class="stat-label">MRR</div>
-          <div class="stat-value stat-accent">$115k</div>
-          <div class="stat-sub">AUD · Monthly</div>
+          <div class="stat-value stat-accent">$152.9k</div>
+          <div class="stat-sub">AUD · March 2026</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Avg Rev / Client</div>
-          <div class="stat-value">$267</div>
-          <div class="stat-sub">AUD per client/mo</div>
+          <div class="stat-label">ARPC</div>
+          <div class="stat-value">$337</div>
+          <div class="stat-sub">AUD per client/mo · 453 clients</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Projected Annual</div>
-          <div class="stat-value stat-teal">$1.38M</div>
+          <div class="stat-value stat-teal">$1.83M</div>
           <div class="stat-sub">At current run rate</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Margin</div>
-          <div class="stat-value">60%</div>
-          <div class="stat-sub">~$69k net/month</div>
+          <div class="stat-label">Churn Rate</div>
+          <div class="stat-value stat-teal">2.65%</div>
+          <div class="stat-sub">March — down from 9.82% in Jan</div>
         </div>
       </div>
 
@@ -2326,7 +2329,7 @@ function renderCoachData() {
   rows += `<tr style="border-top: 1px solid rgba(255,255,255,0.1);">
     <td><strong style="color: var(--text);">Total</strong></td>
     <td><strong style="color: var(--text);">${totalClients}</strong></td>
-    <td colspan="3" style="color: var(--text-3);">430 active clients across 9 coaches</td>
+    <td colspan="3" style="color: var(--text-3);">453 active clients across 9 coaches — March 2026</td>
   </tr>`;
   tbody.innerHTML = rows;
 
@@ -2375,18 +2378,22 @@ function renderCoachData() {
 // ============================================================
 const kanbanData = {
   todo: [
-    { id: 'k1', title: 'Fix CRM onboarding flow',              tag: 'ops' },
-    { id: 'k2', title: 'Set up paid ads infrastructure',        tag: 'growth' },
-    { id: 'k3', title: 'Review content strategy',               tag: 'content' },
-    { id: 'k4', title: 'Hire replacement for departed coach',   tag: 'hr' },
+    { id: 'k1', title: 'Book renewal calls for 55 flagged PIFs (highest LTV — ~$88k revenue at risk)',  tag: 'revenue' },
+    { id: 'k2', title: 'Assign coach to 13 uncoached active clients in Client List (100% churn risk)', tag: 'ops' },
+    { id: 'k3', title: 'Investigate Aleisha\'s 72 client transfer — confirm receiving coaches + update MRR dashboard', tag: 'ops' },
+    { id: 'k4', title: 'Collect missing emails for 12 active clients (blocks all automation)', tag: 'ops' },
+    { id: 'k5', title: 'Add Perry, Damon & Keri to 2026 MRR dashboard (~$63k/mo untracked)', tag: 'data' },
+    { id: 'k6', title: 'Investigate Bec\'s 12.5% churn rate in March — 6 clients lost, understand why', tag: 'coaching' },
   ],
   inprogress: [
-    { id: 'k5', title: 'Brief Ella on SOPs',                    tag: 'hr' },
-    { id: 'k6', title: 'Rebuild Google Sheets → CRM migration plan', tag: 'ops' },
+    { id: 'k7', title: 'Process 13 unactioned cancellations in Kahunas (check if billing still running)', tag: 'ops' },
+    { id: 'k8', title: 'Brief Ella on SOPs — onboarding her 8 clients from March 23', tag: 'hr' },
+    { id: 'k9', title: 'Rebuild Lead Tracker — assign VA to daily follow-up logging (5 recent leads untracked)', tag: 'growth' },
   ],
   done: [
-    { id: 'k7', title: 'Hire Ella',                             tag: 'hr' },
-    { id: 'k8', title: 'Push new client start date to March 23', tag: 'ops' },
+    { id: 'k10', title: 'Hire Ella (new coach starting March 16)', tag: 'hr' },
+    { id: 'k11', title: 'March churn improved to 2.65% — down from 9.82% in January', tag: 'ops' },
+    { id: 'k12', title: 'Angus SOPs library — 27+ SOPs documented (coaching, check-in, onboarding, offboarding)', tag: 'ops' },
   ]
 };
 
